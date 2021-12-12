@@ -21,3 +21,19 @@ body {
 h1 {
     font-family: Rubik, sans-serif;
 }
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 20px solid #FFF5E4;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 20px solid #FFF5E4;
+}
