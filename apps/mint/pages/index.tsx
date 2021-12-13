@@ -71,22 +71,26 @@ function Countdown() {
       <div className="flex flex-row items-center h-12">
         <div className="mx-2">
           <Link href="https://twitter.com/sorcerercollege" passHref>
-            <Image
-              className="cursor-pointer"
-              src={"/img/twitter.png"}
-              width="36px"
-              height="29px"
-            />
+            <a target="_blank" rel="noreferrer">
+              <Image
+                className="cursor-pointer"
+                src={"/img/twitter.png"}
+                width="36px"
+                height="29px"
+              />
+            </a>
           </Link>
         </div>
         <div className="mx-2">
           <Link href="https://discord.gg/JxXHYbqgVW" passHref>
-            <Image
-              className="cursor-pointer"
-              src={"/img/discord.png"}
-              width="36px"
-              height="27px"
-            />
+            <a target="_blank" rel="noreferrer">
+              <Image
+                className="cursor-pointer"
+                src={"/img/discord.png"}
+                width="36px"
+                height="27px"
+              />
+            </a>
           </Link>
         </div>
       </div>

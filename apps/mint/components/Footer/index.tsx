@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div className="bottom-0 mx-4 md:mx-16 lg:mx-32 p-16">
+    <div className="bottom-0 mx-4 md:mx-16 lg:mx-32 py-16">
       <div className="flex flex-row items-center">
         <Image
           src="/img/logo.png"
